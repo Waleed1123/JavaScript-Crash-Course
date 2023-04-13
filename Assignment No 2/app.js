@@ -77,12 +77,8 @@ saveToLocalStorage("justaKeyName", tempObject);
 
 /* ----------------------------------------------------- */
 
+// Question No 7
 
-/*
-    Question # 7. Write a function that retrieves an object from localStorage. The function
-    should take one argument, which is a string representing the key used to
-    store the object. The function should return the object.
-*/
 
 
 console.log("Question # 7");
@@ -102,13 +98,8 @@ function getObjFromLocalStorage(key) {
 
 /* ----------------------------------------------------- */
 
+// Question No 8
 
-/*
-    Question # 8. Write a function that takes an object and saves each property to
-    localStorage using the property name as the key and the property value as
-    the value. The function should also retrieve the object from localStorage
-    and return it as a new object.
-*/
 
 console.log("Question # 8");
 function saveObjToLocalStorage(obj) {
