@@ -184,14 +184,165 @@
 // console.log()
 
 
-var myNum = 4;
-function num (myNum){
-    console.log(myNum);
+// var myNum = 4;
+// function num (myNum){
+//     console.log(myNum);
 
-}
-myNum = 3;
+// }
+// myNum = 3;
 
-console.log(num(25));
+// console.log(num(25));
+
+
+// CLASS NO 6
+
+
+// Objects 
+
+// let person = {
+//     name: "Waleed Ahmed",
+//     age: 17,
+//     Gender: "Male",
+//     isMarried: "Single",
+//     Skill: "Softwear Developer",
+//     speak: function (sentence) {
+//         console.log(sentence + this.name);
+//     }
+// };
+
+// let person2 = {
+//     name: "Nadir Ali",
+//     age: 20,
+//     Gender: "Male",
+//     isMarried: "Married",
+//     Skill: "Layer",
+//     speak: function (sentence) {
+//         console.log(sentence + this.name);
+//     }
+
+// }
+
+// person2.speak("My Name is ");
+
+// console.log("I am " + person2.Gender); 
+
+
+// function providestudent() {
+    //     let std = {
+        //         name: prompt("Enter Your Name"),
+        //         className: prompt("Enter Your Class"),
+        //         rollNo: +prompt("Enter Your Roll No"),
+        //         teacher: prompt("Enter Your Teacher Name")
+        //     };
+        
+        // students.push(std);
+        // console.log(students);
+//         let students = [
+//             provideStudent()
+//         ];
+// function provideStudent() {
+//   let std = {
+//     name: prompt("Enter Name"),
+//     rollNo: +prompt("Enter Roll no"),
+//     teacher: prompt("Enter Teachers Name"),
+//     className: prompt("Enter Your Class"),
+//   };
+//   students.push(std);
+//   console.log(students);
+// };
+
+
+// let students = [];
+
+// function provideStudent() {
+//   let std = {
+//     name: prompt("Enter Name"),
+//     rollNo: +prompt("Enter Roll no"),
+//     teacher: prompt("Enter Teachers Name"),
+//     className: prompt("Enter Your Class"),
+//   };
+//   students.push(std);
+//   console.log(students);
+// }
+
+// let students = [];
+
+// function provideStudent(){
+//     let std = {
+//         name: prompt("Enter Your Name"),
+//         className: prompt("Enter Your Class Name"),
+//         rollNo: +prompt("Enter Your Roll No"),
+//         teacher: prompt("Enter Your Teacher Name")
+//     };
+//     students.push(std);
+//     console.log(students);
+// }
+
+
+
+// let students = [];
+
+// function provideStudent () {
+//     let std = {
+//         name: prompt("Enter Name"),
+//         className: prompt("Enter class"),
+//         rollNo: +prompt("Enter Roll No"),
+//         teacherName: prompt("Enter Your Teacher Name")
+
+//     };
+//     students.push(std);
+//     console.log(students);
+// }
+
+// document.getElementById("#")
+
+
+// let prevStudent = localStorage.getItem("students");
+// let students = prevStudent ? JSON.parse(prevStudent) : [];
+
+// function provideStudent () {
+//     let std = {
+//         name: document.getElementById("name").value,
+//         className: document.getElementById("class").value,
+//         rollNo: +document.getElementById("rollNo").value,
+//         teacherName: document.getElementById("teacher").value
+
+//     };
+//     students.push(std);
+//     console.log(students);
+//     let stringify = JSON.stringify(students);
+//     localStorage.setItem("students", stringify);
+// }
+
+
+// Class No 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
